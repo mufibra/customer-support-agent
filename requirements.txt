@@ -1,0 +1,6 @@
+claude-code-sdk
+anthropic
+faker
+pydantic
+python-dotenv
+pytest
