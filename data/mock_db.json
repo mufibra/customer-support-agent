@@ -1,0 +1,4640 @@
+{
+  "product_catalog": [
+    {
+      "product_id": "PROD-001",
+      "name": "TechGear Wireless Earbuds",
+      "price": 49.99,
+      "category": "audio"
+    },
+    {
+      "product_id": "PROD-002",
+      "name": "TechGear USB-C Hub",
+      "price": 34.99,
+      "category": "accessories"
+    },
+    {
+      "product_id": "PROD-003",
+      "name": "TechGear Mechanical Keyboard",
+      "price": 89.99,
+      "category": "peripherals"
+    },
+    {
+      "product_id": "PROD-004",
+      "name": "TechGear Gaming Mouse",
+      "price": 59.99,
+      "category": "peripherals"
+    },
+    {
+      "product_id": "PROD-005",
+      "name": "TechGear Webcam Pro",
+      "price": 79.99,
+      "category": "video"
+    },
+    {
+      "product_id": "PROD-006",
+      "name": "TechGear Monitor Stand",
+      "price": 39.99,
+      "category": "accessories"
+    },
+    {
+      "product_id": "PROD-007",
+      "name": "TechGear Laptop Sleeve",
+      "price": 19.99,
+      "category": "accessories"
+    },
+    {
+      "product_id": "PROD-008",
+      "name": "TechGear Portable Charger",
+      "price": 29.99,
+      "category": "power"
+    },
+    {
+      "product_id": "PROD-009",
+      "name": "TechGear Noise Cancelling Headphones",
+      "price": 129.99,
+      "category": "audio"
+    },
+    {
+      "product_id": "PROD-010",
+      "name": "TechGear Smart Speaker",
+      "price": 99.99,
+      "category": "audio"
+    }
+  ],
+  "customers_by_id": {
+    "CUST-0001": {
+      "customer_id": "CUST-0001",
+      "first_name": "Daniel",
+      "last_name": "Figueroa",
+      "email": "jeffreydoyle@example.net",
+      "phone": "001-581-896-0013x3890",
+      "plan": "basic",
+      "account_status": "pending_verification",
+      "satisfaction_score": 1.4,
+      "created_at": "2024-09-11T17:19:48",
+      "order_ids": [
+        "ORD-00001"
+      ]
+    },
+    "CUST-0002": {
+      "customer_id": "CUST-0002",
+      "first_name": "Adam",
+      "last_name": "Shaffer",
+      "email": "jpeterson@example.org",
+      "phone": "001-851-316-1559x40781",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 4.9,
+      "created_at": "2025-05-27T06:48:08",
+      "order_ids": [
+        "ORD-00002",
+        "ORD-00003",
+        "ORD-00004",
+        "ORD-00005",
+        "ORD-00006"
+      ]
+    },
+    "CUST-0003": {
+      "customer_id": "CUST-0003",
+      "first_name": "Nicole",
+      "last_name": "Ward",
+      "email": "janetwilliams@example.org",
+      "phone": "001-341-431-6475x25534",
+      "plan": "enterprise",
+      "account_status": "pending_verification",
+      "satisfaction_score": 2.0,
+      "created_at": "2025-05-13T09:06:29",
+      "order_ids": [
+        "ORD-00007",
+        "ORD-00008",
+        "ORD-00009",
+        "ORD-00010"
+      ]
+    },
+    "CUST-0004": {
+      "customer_id": "CUST-0004",
+      "first_name": "Noah",
+      "last_name": "Mayo",
+      "email": "gabriellecameron@example.org",
+      "phone": "505.964.1395",
+      "plan": "enterprise",
+      "account_status": "suspended",
+      "satisfaction_score": 3.2,
+      "created_at": "2025-01-25T19:07:56",
+      "order_ids": [
+        "ORD-00011",
+        "ORD-00012",
+        "ORD-00013",
+        "ORD-00014"
+      ]
+    },
+    "CUST-0005": {
+      "customer_id": "CUST-0005",
+      "first_name": "Joseph",
+      "last_name": "Wright",
+      "email": "julie69@example.com",
+      "phone": "(332)887-1012x269",
+      "plan": "enterprise",
+      "account_status": "suspended",
+      "satisfaction_score": 3.4,
+      "created_at": "2025-01-14T21:55:05",
+      "order_ids": [
+        "ORD-00015",
+        "ORD-00016",
+        "ORD-00017",
+        "ORD-00018",
+        "ORD-00019"
+      ]
+    },
+    "CUST-0006": {
+      "customer_id": "CUST-0006",
+      "first_name": "Allison",
+      "last_name": "Maddox",
+      "email": "frazierdanny@example.net",
+      "phone": "001-645-514-6270x48281",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 2.0,
+      "created_at": "2024-07-21T05:08:58",
+      "order_ids": [
+        "ORD-00020",
+        "ORD-00021"
+      ]
+    },
+    "CUST-0007": {
+      "customer_id": "CUST-0007",
+      "first_name": "Sandra",
+      "last_name": "Sellers",
+      "email": "tracy15@example.com",
+      "phone": "403.491.1718",
+      "plan": "basic",
+      "account_status": "suspended",
+      "satisfaction_score": 1.9,
+      "created_at": "2025-08-18T22:39:57",
+      "order_ids": [
+        "ORD-00022",
+        "ORD-00023",
+        "ORD-00024",
+        "ORD-00025",
+        "ORD-00026"
+      ]
+    },
+    "CUST-0008": {
+      "customer_id": "CUST-0008",
+      "first_name": "Stacey",
+      "last_name": "Martin",
+      "email": "ibrandt@example.net",
+      "phone": "001-734-265-7871x331",
+      "plan": "pro",
+      "account_status": "pending_verification",
+      "satisfaction_score": 2.9,
+      "created_at": "2025-06-24T10:53:18",
+      "order_ids": [
+        "ORD-00027"
+      ]
+    },
+    "CUST-0009": {
+      "customer_id": "CUST-0009",
+      "first_name": "Chad",
+      "last_name": "Welch",
+      "email": "carlosjohnson@example.com",
+      "phone": "983-547-3829",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 4.2,
+      "created_at": "2025-11-23T22:23:07",
+      "order_ids": [
+        "ORD-00028",
+        "ORD-00029",
+        "ORD-00030",
+        "ORD-00031",
+        "ORD-00032"
+      ]
+    },
+    "CUST-0010": {
+      "customer_id": "CUST-0010",
+      "first_name": "Collin",
+      "last_name": "Jordan",
+      "email": "ujenkins@example.org",
+      "phone": "+1-610-965-1333x87262",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 3.3,
+      "created_at": "2024-10-04T12:44:55",
+      "order_ids": [
+        "ORD-00033",
+        "ORD-00034",
+        "ORD-00035",
+        "ORD-00036",
+        "ORD-00037"
+      ]
+    },
+    "CUST-0011": {
+      "customer_id": "CUST-0011",
+      "first_name": "Melissa",
+      "last_name": "Garcia",
+      "email": "novaksara@example.org",
+      "phone": "(267)873-6026",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 2.8,
+      "created_at": "2024-10-16T11:45:44",
+      "order_ids": [
+        "ORD-00038",
+        "ORD-00039",
+        "ORD-00040",
+        "ORD-00041",
+        "ORD-00042"
+      ]
+    },
+    "CUST-0012": {
+      "customer_id": "CUST-0012",
+      "first_name": "Heather",
+      "last_name": "Cross",
+      "email": "smoore@example.org",
+      "phone": "4982050097",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 1.8,
+      "created_at": "2025-04-22T22:37:42",
+      "order_ids": [
+        "ORD-00043",
+        "ORD-00044",
+        "ORD-00045",
+        "ORD-00046",
+        "ORD-00047"
+      ]
+    },
+    "CUST-0013": {
+      "customer_id": "CUST-0013",
+      "first_name": "Casey",
+      "last_name": "Jones",
+      "email": "richarddavid@example.net",
+      "phone": "799.609.1699",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 1.2,
+      "created_at": "2024-08-30T03:41:11",
+      "order_ids": [
+        "ORD-00048",
+        "ORD-00049",
+        "ORD-00050"
+      ]
+    },
+    "CUST-0014": {
+      "customer_id": "CUST-0014",
+      "first_name": "John",
+      "last_name": "Foster",
+      "email": "stephen10@example.com",
+      "phone": "+1-791-618-3842x513",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 4.1,
+      "created_at": "2024-07-25T00:37:59",
+      "order_ids": [
+        "ORD-00051",
+        "ORD-00052",
+        "ORD-00053"
+      ]
+    },
+    "CUST-0015": {
+      "customer_id": "CUST-0015",
+      "first_name": "Martha",
+      "last_name": "Warner",
+      "email": "contrerasangela@example.net",
+      "phone": "524-711-8244",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 4.3,
+      "created_at": "2024-08-29T15:20:53",
+      "order_ids": [
+        "ORD-00054"
+      ]
+    },
+    "CUST-0016": {
+      "customer_id": "CUST-0016",
+      "first_name": "Melissa",
+      "last_name": "Wagner",
+      "email": "rebecca01@example.net",
+      "phone": "(340)405-2427x86801",
+      "plan": "enterprise",
+      "account_status": "suspended",
+      "satisfaction_score": 2.3,
+      "created_at": "2025-05-22T06:33:33",
+      "order_ids": [
+        "ORD-00055",
+        "ORD-00056"
+      ]
+    },
+    "CUST-0017": {
+      "customer_id": "CUST-0017",
+      "first_name": "Mary",
+      "last_name": "Aguilar",
+      "email": "russellwilliams@example.com",
+      "phone": "4535315869",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 3.4,
+      "created_at": "2024-07-28T17:16:17",
+      "order_ids": [
+        "ORD-00057"
+      ]
+    },
+    "CUST-0018": {
+      "customer_id": "CUST-0018",
+      "first_name": "Nicole",
+      "last_name": "Johnson",
+      "email": "kimberly63@example.com",
+      "phone": "(616)507-3375",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 3.7,
+      "created_at": "2024-09-13T15:36:55",
+      "order_ids": [
+        "ORD-00058",
+        "ORD-00059",
+        "ORD-00060"
+      ]
+    },
+    "CUST-0019": {
+      "customer_id": "CUST-0019",
+      "first_name": "Raymond",
+      "last_name": "Ramirez",
+      "email": "rasmussenjoshua@example.net",
+      "phone": "768.750.1429x40196",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 3.7,
+      "created_at": "2025-02-26T10:59:26",
+      "order_ids": [
+        "ORD-00061",
+        "ORD-00062",
+        "ORD-00063"
+      ]
+    },
+    "CUST-0020": {
+      "customer_id": "CUST-0020",
+      "first_name": "Barbara",
+      "last_name": "Scott",
+      "email": "zsmith@example.net",
+      "phone": "+1-835-661-5951x48465",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 2.8,
+      "created_at": "2025-05-29T03:01:00",
+      "order_ids": [
+        "ORD-00064",
+        "ORD-00065",
+        "ORD-00066",
+        "ORD-00067",
+        "ORD-00068"
+      ]
+    },
+    "CUST-0021": {
+      "customer_id": "CUST-0021",
+      "first_name": "Shelby",
+      "last_name": "Byrd",
+      "email": "christinaturner@example.net",
+      "phone": "9449369957",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 3.8,
+      "created_at": "2025-08-31T06:37:25",
+      "order_ids": [
+        "ORD-00069",
+        "ORD-00070",
+        "ORD-00071",
+        "ORD-00072"
+      ]
+    },
+    "CUST-0022": {
+      "customer_id": "CUST-0022",
+      "first_name": "Thomas",
+      "last_name": "Santana",
+      "email": "donnacampbell@example.net",
+      "phone": "+1-395-913-4332x0037",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 2.9,
+      "created_at": "2025-02-09T09:45:34",
+      "order_ids": [
+        "ORD-00073",
+        "ORD-00074"
+      ]
+    },
+    "CUST-0023": {
+      "customer_id": "CUST-0023",
+      "first_name": "James",
+      "last_name": "Horton",
+      "email": "jross@example.net",
+      "phone": "001-901-463-2870x831",
+      "plan": "basic",
+      "account_status": "pending_verification",
+      "satisfaction_score": 2.7,
+      "created_at": "2025-12-06T23:30:26",
+      "order_ids": [
+        "ORD-00075",
+        "ORD-00076",
+        "ORD-00077"
+      ]
+    },
+    "CUST-0024": {
+      "customer_id": "CUST-0024",
+      "first_name": "Caitlin",
+      "last_name": "Dodson",
+      "email": "usalazar@example.net",
+      "phone": "(387)627-7434x87347",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 1.8,
+      "created_at": "2024-09-22T15:17:46",
+      "order_ids": [
+        "ORD-00078",
+        "ORD-00079",
+        "ORD-00080",
+        "ORD-00081"
+      ]
+    },
+    "CUST-0025": {
+      "customer_id": "CUST-0025",
+      "first_name": "Matthew",
+      "last_name": "Orozco",
+      "email": "taylorjesse@example.net",
+      "phone": "(231)566-5876",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 4.1,
+      "created_at": "2025-02-13T20:03:43",
+      "order_ids": [
+        "ORD-00082"
+      ]
+    },
+    "CUST-0026": {
+      "customer_id": "CUST-0026",
+      "first_name": "Kayla",
+      "last_name": "Shah",
+      "email": "gateskathy@example.com",
+      "phone": "805.946.6889x3734",
+      "plan": "enterprise",
+      "account_status": "suspended",
+      "satisfaction_score": 4.2,
+      "created_at": "2024-04-16T01:04:51",
+      "order_ids": [
+        "ORD-00083",
+        "ORD-00084"
+      ]
+    },
+    "CUST-0027": {
+      "customer_id": "CUST-0027",
+      "first_name": "Richard",
+      "last_name": "Martin",
+      "email": "ncalhoun@example.net",
+      "phone": "4692901627",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 4.0,
+      "created_at": "2024-10-12T13:41:03",
+      "order_ids": [
+        "ORD-00085",
+        "ORD-00086",
+        "ORD-00087",
+        "ORD-00088",
+        "ORD-00089"
+      ]
+    },
+    "CUST-0028": {
+      "customer_id": "CUST-0028",
+      "first_name": "Matthew",
+      "last_name": "Hobbs",
+      "email": "karen64@example.org",
+      "phone": "408.505.3100x3309",
+      "plan": "pro",
+      "account_status": "suspended",
+      "satisfaction_score": 3.1,
+      "created_at": "2024-06-30T12:56:55",
+      "order_ids": [
+        "ORD-00090",
+        "ORD-00091",
+        "ORD-00092",
+        "ORD-00093",
+        "ORD-00094"
+      ]
+    },
+    "CUST-0029": {
+      "customer_id": "CUST-0029",
+      "first_name": "Stacie",
+      "last_name": "Marshall",
+      "email": "katie29@example.net",
+      "phone": "001-512-341-9049x6631",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 2.2,
+      "created_at": "2025-09-17T00:38:19",
+      "order_ids": [
+        "ORD-00095",
+        "ORD-00096",
+        "ORD-00097",
+        "ORD-00098"
+      ]
+    },
+    "CUST-0030": {
+      "customer_id": "CUST-0030",
+      "first_name": "Gabrielle",
+      "last_name": "Trujillo",
+      "email": "reedross@example.com",
+      "phone": "985-406-7165",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 2.4,
+      "created_at": "2025-02-25T18:05:16",
+      "order_ids": [
+        "ORD-00099",
+        "ORD-00100",
+        "ORD-00101"
+      ]
+    },
+    "CUST-0031": {
+      "customer_id": "CUST-0031",
+      "first_name": "Jessica",
+      "last_name": "Sheppard",
+      "email": "christina87@example.com",
+      "phone": "(294)953-1473x79965",
+      "plan": "basic",
+      "account_status": "suspended",
+      "satisfaction_score": 3.5,
+      "created_at": "2024-12-01T22:43:20",
+      "order_ids": [
+        "ORD-00102"
+      ]
+    },
+    "CUST-0032": {
+      "customer_id": "CUST-0032",
+      "first_name": "Tony",
+      "last_name": "Kelly",
+      "email": "matthew94@example.net",
+      "phone": "9839136783",
+      "plan": "basic",
+      "account_status": "suspended",
+      "satisfaction_score": 4.1,
+      "created_at": "2025-03-07T14:35:53",
+      "order_ids": [
+        "ORD-00103"
+      ]
+    },
+    "CUST-0033": {
+      "customer_id": "CUST-0033",
+      "first_name": "Richard",
+      "last_name": "Sanchez",
+      "email": "thomas85@example.com",
+      "phone": "001-485-557-4443x1351",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 1.3,
+      "created_at": "2024-09-08T13:43:16",
+      "order_ids": [
+        "ORD-00104",
+        "ORD-00105",
+        "ORD-00106",
+        "ORD-00107",
+        "ORD-00108"
+      ]
+    },
+    "CUST-0034": {
+      "customer_id": "CUST-0034",
+      "first_name": "Joshua",
+      "last_name": "Lawrence",
+      "email": "tina34@example.org",
+      "phone": "(924)308-2400x842",
+      "plan": "enterprise",
+      "account_status": "pending_verification",
+      "satisfaction_score": 4.3,
+      "created_at": "2024-04-03T00:39:46",
+      "order_ids": [
+        "ORD-00109",
+        "ORD-00110"
+      ]
+    },
+    "CUST-0035": {
+      "customer_id": "CUST-0035",
+      "first_name": "Timothy",
+      "last_name": "Peterson",
+      "email": "kingmichelle@example.org",
+      "phone": "667-319-0229",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 3.1,
+      "created_at": "2024-10-03T06:38:02",
+      "order_ids": [
+        "ORD-00111",
+        "ORD-00112",
+        "ORD-00113"
+      ]
+    },
+    "CUST-0036": {
+      "customer_id": "CUST-0036",
+      "first_name": "Catherine",
+      "last_name": "Gibbs",
+      "email": "kimberlyjames@example.com",
+      "phone": "496-549-9091x3341",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 3.6,
+      "created_at": "2024-08-06T12:08:18",
+      "order_ids": [
+        "ORD-00114",
+        "ORD-00115",
+        "ORD-00116",
+        "ORD-00117"
+      ]
+    },
+    "CUST-0037": {
+      "customer_id": "CUST-0037",
+      "first_name": "Shannon",
+      "last_name": "Wheeler",
+      "email": "antonio44@example.net",
+      "phone": "413.349.3618x324",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 2.8,
+      "created_at": "2024-05-09T19:45:10",
+      "order_ids": [
+        "ORD-00118",
+        "ORD-00119",
+        "ORD-00120",
+        "ORD-00121",
+        "ORD-00122"
+      ]
+    },
+    "CUST-0038": {
+      "customer_id": "CUST-0038",
+      "first_name": "Kyle",
+      "last_name": "Curry",
+      "email": "scott74@example.net",
+      "phone": "(248)387-7190x6594",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 4.3,
+      "created_at": "2024-09-18T07:28:46",
+      "order_ids": [
+        "ORD-00123",
+        "ORD-00124"
+      ]
+    },
+    "CUST-0039": {
+      "customer_id": "CUST-0039",
+      "first_name": "Stephanie",
+      "last_name": "Key",
+      "email": "barbara27@example.net",
+      "phone": "+1-374-429-6717x5655",
+      "plan": "pro",
+      "account_status": "pending_verification",
+      "satisfaction_score": 4.9,
+      "created_at": "2024-12-05T16:00:18",
+      "order_ids": [
+        "ORD-00125",
+        "ORD-00126",
+        "ORD-00127",
+        "ORD-00128",
+        "ORD-00129"
+      ]
+    },
+    "CUST-0040": {
+      "customer_id": "CUST-0040",
+      "first_name": "Heather",
+      "last_name": "Roberts",
+      "email": "jcervantes@example.org",
+      "phone": "215.545.1680x876",
+      "plan": "enterprise",
+      "account_status": "suspended",
+      "satisfaction_score": 2.5,
+      "created_at": "2025-05-01T04:25:47",
+      "order_ids": [
+        "ORD-00130"
+      ]
+    },
+    "CUST-0041": {
+      "customer_id": "CUST-0041",
+      "first_name": "Vernon",
+      "last_name": "Ramos",
+      "email": "harrisandrea@example.com",
+      "phone": "371.509.3248x086",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 2.7,
+      "created_at": "2024-06-20T15:05:15",
+      "order_ids": [
+        "ORD-00131",
+        "ORD-00132",
+        "ORD-00133"
+      ]
+    },
+    "CUST-0042": {
+      "customer_id": "CUST-0042",
+      "first_name": "Deborah",
+      "last_name": "Moore",
+      "email": "william46@example.com",
+      "phone": "737.682.6398x2146",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 3.7,
+      "created_at": "2025-12-21T20:10:12",
+      "order_ids": [
+        "ORD-00134",
+        "ORD-00135"
+      ]
+    },
+    "CUST-0043": {
+      "customer_id": "CUST-0043",
+      "first_name": "Mary",
+      "last_name": "Carpenter",
+      "email": "cgrimes@example.net",
+      "phone": "855.288.6753x3963",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 3.4,
+      "created_at": "2024-11-26T15:15:20",
+      "order_ids": [
+        "ORD-00136",
+        "ORD-00137",
+        "ORD-00138",
+        "ORD-00139"
+      ]
+    },
+    "CUST-0044": {
+      "customer_id": "CUST-0044",
+      "first_name": "Robin",
+      "last_name": "James",
+      "email": "tylerjohnson@example.net",
+      "phone": "001-851-471-8702",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 1.5,
+      "created_at": "2024-05-21T14:55:07",
+      "order_ids": [
+        "ORD-00140",
+        "ORD-00141",
+        "ORD-00142"
+      ]
+    },
+    "CUST-0045": {
+      "customer_id": "CUST-0045",
+      "first_name": "Heather",
+      "last_name": "Santos",
+      "email": "melissa86@example.com",
+      "phone": "+1-978-409-1343x1611",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 3.5,
+      "created_at": "2025-09-14T13:08:18",
+      "order_ids": [
+        "ORD-00143",
+        "ORD-00144",
+        "ORD-00145",
+        "ORD-00146",
+        "ORD-00147"
+      ]
+    },
+    "CUST-0046": {
+      "customer_id": "CUST-0046",
+      "first_name": "Laura",
+      "last_name": "Carter",
+      "email": "ryan38@example.com",
+      "phone": "001-922-421-9693",
+      "plan": "pro",
+      "account_status": "active",
+      "satisfaction_score": 4.8,
+      "created_at": "2024-09-20T20:19:31",
+      "order_ids": [
+        "ORD-00148",
+        "ORD-00149",
+        "ORD-00150",
+        "ORD-00151",
+        "ORD-00152"
+      ]
+    },
+    "CUST-0047": {
+      "customer_id": "CUST-0047",
+      "first_name": "Steve",
+      "last_name": "Estrada",
+      "email": "rsantana@example.net",
+      "phone": "(617)559-4647",
+      "plan": "basic",
+      "account_status": "suspended",
+      "satisfaction_score": 1.8,
+      "created_at": "2025-01-17T07:13:15",
+      "order_ids": [
+        "ORD-00153",
+        "ORD-00154",
+        "ORD-00155"
+      ]
+    },
+    "CUST-0048": {
+      "customer_id": "CUST-0048",
+      "first_name": "Daniel",
+      "last_name": "James",
+      "email": "bailey40@example.net",
+      "phone": "(640)490-9743x9533",
+      "plan": "basic",
+      "account_status": "active",
+      "satisfaction_score": 2.4,
+      "created_at": "2025-07-25T11:24:45",
+      "order_ids": [
+        "ORD-00156",
+        "ORD-00157"
+      ]
+    },
+    "CUST-0049": {
+      "customer_id": "CUST-0049",
+      "first_name": "Courtney",
+      "last_name": "Williams",
+      "email": "xjohnson@example.net",
+      "phone": "(714)656-2328",
+      "plan": "enterprise",
+      "account_status": "active",
+      "satisfaction_score": 4.8,
+      "created_at": "2024-07-30T07:20:58",
+      "order_ids": [
+        "ORD-00158",
+        "ORD-00159"
+      ]
+    },
+    "CUST-0050": {
+      "customer_id": "CUST-0050",
+      "first_name": "Robin",
+      "last_name": "Raymond",
+      "email": "julie51@example.com",
+      "phone": "623-368-5160",
+      "plan": "pro",
+      "account_status": "pending_verification",
+      "satisfaction_score": 1.4,
+      "created_at": "2025-03-12T17:50:42",
+      "order_ids": [
+        "ORD-00160"
+      ]
+    }
+  },
+  "orders_by_id": {
+    "ORD-00001": {
+      "order_id": "ORD-00001",
+      "customer_id": "CUST-0001",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 79.99,
+      "status": "shipped",
+      "ordered_at": "2026-02-25T01:30:41",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00002": {
+      "order_id": "ORD-00002",
+      "customer_id": "CUST-0002",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 199.98,
+      "status": "delivered",
+      "ordered_at": "2026-02-06T14:16:19",
+      "delivered_at": "2026-02-08T14:16:19",
+      "return_eligible": false
+    },
+    "ORD-00003": {
+      "order_id": "ORD-00003",
+      "customer_id": "CUST-0002",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 59.99,
+      "status": "returned",
+      "ordered_at": "2026-02-20T04:37:39",
+      "delivered_at": "2026-02-22T04:37:39",
+      "return_eligible": false
+    },
+    "ORD-00004": {
+      "order_id": "ORD-00004",
+      "customer_id": "CUST-0002",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 359.95,
+      "status": "delivered",
+      "ordered_at": "2026-01-20T23:46:13",
+      "delivered_at": "2026-01-24T23:46:13",
+      "return_eligible": false
+    },
+    "ORD-00005": {
+      "order_id": "ORD-00005",
+      "customer_id": "CUST-0002",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 219.96,
+      "status": "delivered",
+      "ordered_at": "2026-03-13T13:38:55",
+      "delivered_at": "2026-03-16T13:38:55",
+      "return_eligible": true
+    },
+    "ORD-00006": {
+      "order_id": "ORD-00006",
+      "customer_id": "CUST-0002",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 149.96,
+      "status": "delivered",
+      "ordered_at": "2026-03-19T09:09:20",
+      "delivered_at": "2026-03-28T09:09:20",
+      "return_eligible": true
+    },
+    "ORD-00007": {
+      "order_id": "ORD-00007",
+      "customer_id": "CUST-0003",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 259.98,
+      "status": "returned",
+      "ordered_at": "2026-01-22T10:41:38",
+      "delivered_at": "2026-01-26T10:41:38",
+      "return_eligible": false
+    },
+    "ORD-00008": {
+      "order_id": "ORD-00008",
+      "customer_id": "CUST-0003",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 179.96,
+      "status": "shipped",
+      "ordered_at": "2026-03-15T12:11:31",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00009": {
+      "order_id": "ORD-00009",
+      "customer_id": "CUST-0003",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 39.98,
+      "status": "cancelled",
+      "ordered_at": "2026-02-24T00:22:33",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00010": {
+      "order_id": "ORD-00010",
+      "customer_id": "CUST-0003",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 369.95,
+      "status": "delivered",
+      "ordered_at": "2026-02-23T00:47:40",
+      "delivered_at": "2026-02-27T00:47:40",
+      "return_eligible": true
+    },
+    "ORD-00011": {
+      "order_id": "ORD-00011",
+      "customer_id": "CUST-0004",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 339.97,
+      "status": "delivered",
+      "ordered_at": "2026-03-05T18:31:39",
+      "delivered_at": "2026-03-10T18:31:39",
+      "return_eligible": true
+    },
+    "ORD-00012": {
+      "order_id": "ORD-00012",
+      "customer_id": "CUST-0004",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 79.98,
+      "status": "processing",
+      "ordered_at": "2026-01-17T17:59:23",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00013": {
+      "order_id": "ORD-00013",
+      "customer_id": "CUST-0004",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 119.98,
+      "status": "shipped",
+      "ordered_at": "2026-01-09T20:17:40",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00014": {
+      "order_id": "ORD-00014",
+      "customer_id": "CUST-0004",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 169.96,
+      "status": "shipped",
+      "ordered_at": "2026-02-07T20:41:00",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00015": {
+      "order_id": "ORD-00015",
+      "customer_id": "CUST-0005",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 219.97,
+      "status": "shipped",
+      "ordered_at": "2026-03-20T21:00:01",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00016": {
+      "order_id": "ORD-00016",
+      "customer_id": "CUST-0005",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 114.97,
+      "status": "cancelled",
+      "ordered_at": "2026-03-23T18:35:22",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00017": {
+      "order_id": "ORD-00017",
+      "customer_id": "CUST-0005",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 239.95,
+      "status": "delivered",
+      "ordered_at": "2026-02-25T09:29:33",
+      "delivered_at": "2026-03-07T09:29:33",
+      "return_eligible": true
+    },
+    "ORD-00018": {
+      "order_id": "ORD-00018",
+      "customer_id": "CUST-0005",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 149.96,
+      "status": "shipped",
+      "ordered_at": "2026-02-07T12:44:29",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00019": {
+      "order_id": "ORD-00019",
+      "customer_id": "CUST-0005",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 129.98,
+      "status": "processing",
+      "ordered_at": "2026-01-07T20:27:14",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00020": {
+      "order_id": "ORD-00020",
+      "customer_id": "CUST-0006",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 349.97,
+      "status": "cancelled",
+      "ordered_at": "2026-02-20T20:03:35",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00021": {
+      "order_id": "ORD-00021",
+      "customer_id": "CUST-0006",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 69.98,
+      "status": "processing",
+      "ordered_at": "2026-02-08T10:10:28",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00022": {
+      "order_id": "ORD-00022",
+      "customer_id": "CUST-0007",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 69.98,
+      "status": "delivered",
+      "ordered_at": "2026-01-30T06:49:17",
+      "delivered_at": "2026-02-09T06:49:17",
+      "return_eligible": false
+    },
+    "ORD-00023": {
+      "order_id": "ORD-00023",
+      "customer_id": "CUST-0007",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 179.98,
+      "status": "returned",
+      "ordered_at": "2026-03-09T00:19:05",
+      "delivered_at": "2026-03-12T00:19:05",
+      "return_eligible": false
+    },
+    "ORD-00024": {
+      "order_id": "ORD-00024",
+      "customer_id": "CUST-0007",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 149.98,
+      "status": "processing",
+      "ordered_at": "2026-01-09T15:58:32",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00025": {
+      "order_id": "ORD-00025",
+      "customer_id": "CUST-0007",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 109.97,
+      "status": "shipped",
+      "ordered_at": "2026-02-15T08:23:00",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00026": {
+      "order_id": "ORD-00026",
+      "customer_id": "CUST-0007",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 69.98,
+      "status": "delivered",
+      "ordered_at": "2026-03-10T13:52:13",
+      "delivered_at": "2026-03-20T13:52:13",
+      "return_eligible": true
+    },
+    "ORD-00027": {
+      "order_id": "ORD-00027",
+      "customer_id": "CUST-0008",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 204.96,
+      "status": "returned",
+      "ordered_at": "2026-02-09T03:01:38",
+      "delivered_at": "2026-02-12T03:01:38",
+      "return_eligible": false
+    },
+    "ORD-00028": {
+      "order_id": "ORD-00028",
+      "customer_id": "CUST-0009",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 199.98,
+      "status": "shipped",
+      "ordered_at": "2026-02-16T18:16:11",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00029": {
+      "order_id": "ORD-00029",
+      "customer_id": "CUST-0009",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 79.98,
+      "status": "cancelled",
+      "ordered_at": "2026-01-16T07:44:43",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00030": {
+      "order_id": "ORD-00030",
+      "customer_id": "CUST-0009",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 139.97,
+      "status": "delivered",
+      "ordered_at": "2026-02-20T02:42:14",
+      "delivered_at": "2026-02-22T02:42:14",
+      "return_eligible": true
+    },
+    "ORD-00031": {
+      "order_id": "ORD-00031",
+      "customer_id": "CUST-0009",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 74.98,
+      "status": "shipped",
+      "ordered_at": "2026-01-15T08:40:58",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00032": {
+      "order_id": "ORD-00032",
+      "customer_id": "CUST-0009",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 249.95,
+      "status": "shipped",
+      "ordered_at": "2025-12-25T16:17:42",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00033": {
+      "order_id": "ORD-00033",
+      "customer_id": "CUST-0010",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 49.99,
+      "status": "delivered",
+      "ordered_at": "2026-02-08T21:38:45",
+      "delivered_at": "2026-02-13T21:38:45",
+      "return_eligible": false
+    },
+    "ORD-00034": {
+      "order_id": "ORD-00034",
+      "customer_id": "CUST-0010",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 39.98,
+      "status": "cancelled",
+      "ordered_at": "2026-03-13T09:08:36",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00035": {
+      "order_id": "ORD-00035",
+      "customer_id": "CUST-0010",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 19.99,
+      "status": "shipped",
+      "ordered_at": "2026-02-02T12:03:27",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00036": {
+      "order_id": "ORD-00036",
+      "customer_id": "CUST-0010",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 139.96,
+      "status": "processing",
+      "ordered_at": "2026-01-12T11:13:35",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00037": {
+      "order_id": "ORD-00037",
+      "customer_id": "CUST-0010",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 159.98,
+      "status": "processing",
+      "ordered_at": "2026-01-03T03:20:03",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00038": {
+      "order_id": "ORD-00038",
+      "customer_id": "CUST-0011",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 39.99,
+      "status": "delivered",
+      "ordered_at": "2026-03-19T21:14:20",
+      "delivered_at": "2026-03-28T21:14:20",
+      "return_eligible": true
+    },
+    "ORD-00039": {
+      "order_id": "ORD-00039",
+      "customer_id": "CUST-0011",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 269.97,
+      "status": "returned",
+      "ordered_at": "2026-01-01T07:11:55",
+      "delivered_at": "2026-01-03T07:11:55",
+      "return_eligible": false
+    },
+    "ORD-00040": {
+      "order_id": "ORD-00040",
+      "customer_id": "CUST-0011",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 114.97,
+      "status": "cancelled",
+      "ordered_at": "2026-02-06T00:06:31",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00041": {
+      "order_id": "ORD-00041",
+      "customer_id": "CUST-0011",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 409.95,
+      "status": "shipped",
+      "ordered_at": "2026-03-13T10:22:02",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00042": {
+      "order_id": "ORD-00042",
+      "customer_id": "CUST-0011",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 219.96,
+      "status": "processing",
+      "ordered_at": "2026-03-18T14:37:40",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00043": {
+      "order_id": "ORD-00043",
+      "customer_id": "CUST-0012",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 34.99,
+      "status": "returned",
+      "ordered_at": "2026-03-11T02:33:21",
+      "delivered_at": "2026-03-15T02:33:21",
+      "return_eligible": false
+    },
+    "ORD-00044": {
+      "order_id": "ORD-00044",
+      "customer_id": "CUST-0012",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 39.99,
+      "status": "shipped",
+      "ordered_at": "2026-03-11T05:01:23",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00045": {
+      "order_id": "ORD-00045",
+      "customer_id": "CUST-0012",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 339.96,
+      "status": "returned",
+      "ordered_at": "2026-02-07T03:47:07",
+      "delivered_at": "2026-02-09T03:47:07",
+      "return_eligible": false
+    },
+    "ORD-00046": {
+      "order_id": "ORD-00046",
+      "customer_id": "CUST-0012",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 324.96,
+      "status": "delivered",
+      "ordered_at": "2026-01-21T16:13:04",
+      "delivered_at": "2026-01-31T16:13:04",
+      "return_eligible": false
+    },
+    "ORD-00047": {
+      "order_id": "ORD-00047",
+      "customer_id": "CUST-0012",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 159.98,
+      "status": "returned",
+      "ordered_at": "2026-02-04T01:13:04",
+      "delivered_at": "2026-02-07T01:13:04",
+      "return_eligible": false
+    },
+    "ORD-00048": {
+      "order_id": "ORD-00048",
+      "customer_id": "CUST-0013",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 289.95,
+      "status": "delivered",
+      "ordered_at": "2026-01-01T18:12:44",
+      "delivered_at": "2026-01-03T18:12:44",
+      "return_eligible": false
+    },
+    "ORD-00049": {
+      "order_id": "ORD-00049",
+      "customer_id": "CUST-0013",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 249.97,
+      "status": "returned",
+      "ordered_at": "2026-03-17T15:18:39",
+      "delivered_at": "2026-03-22T15:18:39",
+      "return_eligible": false
+    },
+    "ORD-00050": {
+      "order_id": "ORD-00050",
+      "customer_id": "CUST-0013",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 344.96,
+      "status": "returned",
+      "ordered_at": "2026-01-12T00:32:33",
+      "delivered_at": "2026-01-15T00:32:33",
+      "return_eligible": false
+    },
+    "ORD-00051": {
+      "order_id": "ORD-00051",
+      "customer_id": "CUST-0014",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 39.99,
+      "status": "shipped",
+      "ordered_at": "2026-02-28T00:06:49",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00052": {
+      "order_id": "ORD-00052",
+      "customer_id": "CUST-0014",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 94.97,
+      "status": "shipped",
+      "ordered_at": "2026-03-04T12:23:13",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00053": {
+      "order_id": "ORD-00053",
+      "customer_id": "CUST-0014",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 279.96,
+      "status": "shipped",
+      "ordered_at": "2026-01-24T11:38:26",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00054": {
+      "order_id": "ORD-00054",
+      "customer_id": "CUST-0015",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 79.98,
+      "status": "cancelled",
+      "ordered_at": "2026-02-05T12:34:59",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00055": {
+      "order_id": "ORD-00055",
+      "customer_id": "CUST-0016",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 49.99,
+      "status": "cancelled",
+      "ordered_at": "2026-03-01T17:31:24",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00056": {
+      "order_id": "ORD-00056",
+      "customer_id": "CUST-0016",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 229.96,
+      "status": "returned",
+      "ordered_at": "2026-02-24T13:25:14",
+      "delivered_at": "2026-03-01T13:25:14",
+      "return_eligible": false
+    },
+    "ORD-00057": {
+      "order_id": "ORD-00057",
+      "customer_id": "CUST-0017",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 79.99,
+      "status": "returned",
+      "ordered_at": "2025-12-28T11:29:26",
+      "delivered_at": "2026-01-01T11:29:26",
+      "return_eligible": false
+    },
+    "ORD-00058": {
+      "order_id": "ORD-00058",
+      "customer_id": "CUST-0018",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 169.95,
+      "status": "delivered",
+      "ordered_at": "2026-03-12T15:24:39",
+      "delivered_at": "2026-03-20T15:24:39",
+      "return_eligible": true
+    },
+    "ORD-00059": {
+      "order_id": "ORD-00059",
+      "customer_id": "CUST-0018",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 129.99,
+      "status": "processing",
+      "ordered_at": "2026-03-13T16:46:27",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00060": {
+      "order_id": "ORD-00060",
+      "customer_id": "CUST-0018",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 109.97,
+      "status": "processing",
+      "ordered_at": "2026-01-11T04:06:03",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00061": {
+      "order_id": "ORD-00061",
+      "customer_id": "CUST-0019",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 209.98,
+      "status": "cancelled",
+      "ordered_at": "2025-12-27T06:40:52",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00062": {
+      "order_id": "ORD-00062",
+      "customer_id": "CUST-0019",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 289.95,
+      "status": "processing",
+      "ordered_at": "2026-02-27T01:31:40",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00063": {
+      "order_id": "ORD-00063",
+      "customer_id": "CUST-0019",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 39.98,
+      "status": "cancelled",
+      "ordered_at": "2026-01-12T17:33:51",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00064": {
+      "order_id": "ORD-00064",
+      "customer_id": "CUST-0020",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 249.96,
+      "status": "delivered",
+      "ordered_at": "2026-02-21T20:06:29",
+      "delivered_at": "2026-02-26T20:06:29",
+      "return_eligible": true
+    },
+    "ORD-00065": {
+      "order_id": "ORD-00065",
+      "customer_id": "CUST-0020",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 269.97,
+      "status": "shipped",
+      "ordered_at": "2026-02-12T15:14:28",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00066": {
+      "order_id": "ORD-00066",
+      "customer_id": "CUST-0020",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 269.96,
+      "status": "returned",
+      "ordered_at": "2026-01-05T05:00:48",
+      "delivered_at": "2026-01-08T05:00:48",
+      "return_eligible": false
+    },
+    "ORD-00067": {
+      "order_id": "ORD-00067",
+      "customer_id": "CUST-0020",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 149.97,
+      "status": "delivered",
+      "ordered_at": "2026-01-31T09:06:34",
+      "delivered_at": "2026-02-08T09:06:34",
+      "return_eligible": false
+    },
+    "ORD-00068": {
+      "order_id": "ORD-00068",
+      "customer_id": "CUST-0020",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 179.98,
+      "status": "delivered",
+      "ordered_at": "2026-03-22T07:32:13",
+      "delivered_at": "2026-04-01T07:32:13",
+      "return_eligible": true
+    },
+    "ORD-00069": {
+      "order_id": "ORD-00069",
+      "customer_id": "CUST-0021",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 539.94,
+      "status": "shipped",
+      "ordered_at": "2026-01-06T08:08:28",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00070": {
+      "order_id": "ORD-00070",
+      "customer_id": "CUST-0021",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 389.95,
+      "status": "shipped",
+      "ordered_at": "2026-01-12T14:33:32",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00071": {
+      "order_id": "ORD-00071",
+      "customer_id": "CUST-0021",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 94.97,
+      "status": "processing",
+      "ordered_at": "2026-02-03T19:15:00",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00072": {
+      "order_id": "ORD-00072",
+      "customer_id": "CUST-0021",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 169.98,
+      "status": "shipped",
+      "ordered_at": "2026-02-27T12:56:13",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00073": {
+      "order_id": "ORD-00073",
+      "customer_id": "CUST-0022",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 39.98,
+      "status": "processing",
+      "ordered_at": "2026-01-14T17:29:58",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00074": {
+      "order_id": "ORD-00074",
+      "customer_id": "CUST-0022",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 169.95,
+      "status": "returned",
+      "ordered_at": "2026-02-12T14:39:39",
+      "delivered_at": "2026-02-14T14:39:39",
+      "return_eligible": false
+    },
+    "ORD-00075": {
+      "order_id": "ORD-00075",
+      "customer_id": "CUST-0023",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 219.97,
+      "status": "shipped",
+      "ordered_at": "2026-03-21T00:23:16",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00076": {
+      "order_id": "ORD-00076",
+      "customer_id": "CUST-0023",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 79.97,
+      "status": "processing",
+      "ordered_at": "2026-02-24T02:59:55",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00077": {
+      "order_id": "ORD-00077",
+      "customer_id": "CUST-0023",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 169.96,
+      "status": "returned",
+      "ordered_at": "2026-02-18T20:56:58",
+      "delivered_at": "2026-02-20T20:56:58",
+      "return_eligible": false
+    },
+    "ORD-00078": {
+      "order_id": "ORD-00078",
+      "customer_id": "CUST-0024",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 99.98,
+      "status": "cancelled",
+      "ordered_at": "2026-02-08T02:14:10",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00079": {
+      "order_id": "ORD-00079",
+      "customer_id": "CUST-0024",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 179.96,
+      "status": "cancelled",
+      "ordered_at": "2026-02-27T19:06:28",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00080": {
+      "order_id": "ORD-00080",
+      "customer_id": "CUST-0024",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 179.97,
+      "status": "delivered",
+      "ordered_at": "2026-02-14T13:09:58",
+      "delivered_at": "2026-02-24T13:09:58",
+      "return_eligible": true
+    },
+    "ORD-00081": {
+      "order_id": "ORD-00081",
+      "customer_id": "CUST-0024",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 39.99,
+      "status": "delivered",
+      "ordered_at": "2026-02-17T05:55:46",
+      "delivered_at": "2026-02-19T05:55:46",
+      "return_eligible": false
+    },
+    "ORD-00082": {
+      "order_id": "ORD-00082",
+      "customer_id": "CUST-0025",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 339.96,
+      "status": "cancelled",
+      "ordered_at": "2026-01-20T08:40:52",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00083": {
+      "order_id": "ORD-00083",
+      "customer_id": "CUST-0026",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 324.96,
+      "status": "processing",
+      "ordered_at": "2026-01-31T19:05:09",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00084": {
+      "order_id": "ORD-00084",
+      "customer_id": "CUST-0026",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 179.97,
+      "status": "processing",
+      "ordered_at": "2026-03-22T19:57:56",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00085": {
+      "order_id": "ORD-00085",
+      "customer_id": "CUST-0027",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 79.98,
+      "status": "processing",
+      "ordered_at": "2026-01-31T17:38:31",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00086": {
+      "order_id": "ORD-00086",
+      "customer_id": "CUST-0027",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 259.98,
+      "status": "delivered",
+      "ordered_at": "2026-01-26T14:46:39",
+      "delivered_at": "2026-02-03T14:46:39",
+      "return_eligible": false
+    },
+    "ORD-00087": {
+      "order_id": "ORD-00087",
+      "customer_id": "CUST-0027",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 109.96,
+      "status": "shipped",
+      "ordered_at": "2026-02-27T22:07:39",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00088": {
+      "order_id": "ORD-00088",
+      "customer_id": "CUST-0027",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 439.96,
+      "status": "cancelled",
+      "ordered_at": "2026-02-28T22:03:16",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00089": {
+      "order_id": "ORD-00089",
+      "customer_id": "CUST-0027",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 279.97,
+      "status": "delivered",
+      "ordered_at": "2026-03-12T11:20:44",
+      "delivered_at": "2026-03-18T11:20:44",
+      "return_eligible": true
+    },
+    "ORD-00090": {
+      "order_id": "ORD-00090",
+      "customer_id": "CUST-0028",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 169.95,
+      "status": "cancelled",
+      "ordered_at": "2026-01-30T18:54:54",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00091": {
+      "order_id": "ORD-00091",
+      "customer_id": "CUST-0028",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 79.98,
+      "status": "processing",
+      "ordered_at": "2026-01-25T18:19:34",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00092": {
+      "order_id": "ORD-00092",
+      "customer_id": "CUST-0028",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 179.98,
+      "status": "delivered",
+      "ordered_at": "2026-01-14T12:44:36",
+      "delivered_at": "2026-01-19T12:44:36",
+      "return_eligible": false
+    },
+    "ORD-00093": {
+      "order_id": "ORD-00093",
+      "customer_id": "CUST-0028",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 219.94,
+      "status": "delivered",
+      "ordered_at": "2026-02-07T03:03:55",
+      "delivered_at": "2026-02-10T03:03:55",
+      "return_eligible": false
+    },
+    "ORD-00094": {
+      "order_id": "ORD-00094",
+      "customer_id": "CUST-0028",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 99.97,
+      "status": "returned",
+      "ordered_at": "2026-01-25T17:08:42",
+      "delivered_at": "2026-01-29T17:08:42",
+      "return_eligible": false
+    },
+    "ORD-00095": {
+      "order_id": "ORD-00095",
+      "customer_id": "CUST-0029",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 539.94,
+      "status": "processing",
+      "ordered_at": "2026-02-08T23:00:59",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00096": {
+      "order_id": "ORD-00096",
+      "customer_id": "CUST-0029",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 34.99,
+      "status": "processing",
+      "ordered_at": "2026-02-27T23:29:28",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00097": {
+      "order_id": "ORD-00097",
+      "customer_id": "CUST-0029",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 129.99,
+      "status": "shipped",
+      "ordered_at": "2026-01-05T02:05:09",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00098": {
+      "order_id": "ORD-00098",
+      "customer_id": "CUST-0029",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 59.98,
+      "status": "returned",
+      "ordered_at": "2026-02-17T17:41:00",
+      "delivered_at": "2026-02-21T17:41:00",
+      "return_eligible": false
+    },
+    "ORD-00099": {
+      "order_id": "ORD-00099",
+      "customer_id": "CUST-0030",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 79.99,
+      "status": "returned",
+      "ordered_at": "2026-03-09T23:33:00",
+      "delivered_at": "2026-03-12T23:33:00",
+      "return_eligible": false
+    },
+    "ORD-00100": {
+      "order_id": "ORD-00100",
+      "customer_id": "CUST-0030",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 199.97,
+      "status": "cancelled",
+      "ordered_at": "2026-01-23T06:16:39",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00101": {
+      "order_id": "ORD-00101",
+      "customer_id": "CUST-0030",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 99.98,
+      "status": "cancelled",
+      "ordered_at": "2026-03-17T12:51:57",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00102": {
+      "order_id": "ORD-00102",
+      "customer_id": "CUST-0031",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 99.97,
+      "status": "cancelled",
+      "ordered_at": "2026-01-11T01:58:04",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00103": {
+      "order_id": "ORD-00103",
+      "customer_id": "CUST-0032",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 179.98,
+      "status": "delivered",
+      "ordered_at": "2026-01-11T15:15:24",
+      "delivered_at": "2026-01-16T15:15:24",
+      "return_eligible": false
+    },
+    "ORD-00104": {
+      "order_id": "ORD-00104",
+      "customer_id": "CUST-0033",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 359.94,
+      "status": "returned",
+      "ordered_at": "2026-03-11T23:12:24",
+      "delivered_at": "2026-03-16T23:12:24",
+      "return_eligible": false
+    },
+    "ORD-00105": {
+      "order_id": "ORD-00105",
+      "customer_id": "CUST-0033",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 149.98,
+      "status": "shipped",
+      "ordered_at": "2025-12-26T15:43:07",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00106": {
+      "order_id": "ORD-00106",
+      "customer_id": "CUST-0033",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 124.98,
+      "status": "returned",
+      "ordered_at": "2026-01-03T00:22:09",
+      "delivered_at": "2026-01-05T00:22:09",
+      "return_eligible": false
+    },
+    "ORD-00107": {
+      "order_id": "ORD-00107",
+      "customer_id": "CUST-0033",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 99.98,
+      "status": "cancelled",
+      "ordered_at": "2026-01-22T13:09:27",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00108": {
+      "order_id": "ORD-00108",
+      "customer_id": "CUST-0033",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 289.96,
+      "status": "processing",
+      "ordered_at": "2026-01-15T11:53:46",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00109": {
+      "order_id": "ORD-00109",
+      "customer_id": "CUST-0034",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 259.97,
+      "status": "returned",
+      "ordered_at": "2026-03-06T16:36:45",
+      "delivered_at": "2026-03-09T16:36:45",
+      "return_eligible": false
+    },
+    "ORD-00110": {
+      "order_id": "ORD-00110",
+      "customer_id": "CUST-0034",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 269.97,
+      "status": "processing",
+      "ordered_at": "2026-02-09T23:48:13",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00111": {
+      "order_id": "ORD-00111",
+      "customer_id": "CUST-0035",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 129.96,
+      "status": "processing",
+      "ordered_at": "2026-02-18T17:12:20",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00112": {
+      "order_id": "ORD-00112",
+      "customer_id": "CUST-0035",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 359.96,
+      "status": "processing",
+      "ordered_at": "2026-01-21T14:05:52",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00113": {
+      "order_id": "ORD-00113",
+      "customer_id": "CUST-0035",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 199.96,
+      "status": "returned",
+      "ordered_at": "2026-02-08T13:18:47",
+      "delivered_at": "2026-02-10T13:18:47",
+      "return_eligible": false
+    },
+    "ORD-00114": {
+      "order_id": "ORD-00114",
+      "customer_id": "CUST-0036",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 199.97,
+      "status": "cancelled",
+      "ordered_at": "2026-01-05T11:33:04",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00115": {
+      "order_id": "ORD-00115",
+      "customer_id": "CUST-0036",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 79.97,
+      "status": "shipped",
+      "ordered_at": "2026-02-17T03:56:36",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00116": {
+      "order_id": "ORD-00116",
+      "customer_id": "CUST-0036",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 99.96,
+      "status": "returned",
+      "ordered_at": "2026-03-09T04:49:17",
+      "delivered_at": "2026-03-11T04:49:17",
+      "return_eligible": false
+    },
+    "ORD-00117": {
+      "order_id": "ORD-00117",
+      "customer_id": "CUST-0036",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 149.96,
+      "status": "delivered",
+      "ordered_at": "2026-02-03T09:17:41",
+      "delivered_at": "2026-02-11T09:17:41",
+      "return_eligible": false
+    },
+    "ORD-00118": {
+      "order_id": "ORD-00118",
+      "customer_id": "CUST-0037",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 119.97,
+      "status": "returned",
+      "ordered_at": "2026-02-16T13:46:27",
+      "delivered_at": "2026-02-21T13:46:27",
+      "return_eligible": false
+    },
+    "ORD-00119": {
+      "order_id": "ORD-00119",
+      "customer_id": "CUST-0037",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 229.95,
+      "status": "cancelled",
+      "ordered_at": "2026-01-01T06:27:10",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00120": {
+      "order_id": "ORD-00120",
+      "customer_id": "CUST-0037",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 164.96,
+      "status": "returned",
+      "ordered_at": "2026-01-09T04:17:11",
+      "delivered_at": "2026-01-11T04:17:11",
+      "return_eligible": false
+    },
+    "ORD-00121": {
+      "order_id": "ORD-00121",
+      "customer_id": "CUST-0037",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 149.96,
+      "status": "shipped",
+      "ordered_at": "2025-12-25T05:46:26",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00122": {
+      "order_id": "ORD-00122",
+      "customer_id": "CUST-0037",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 419.96,
+      "status": "cancelled",
+      "ordered_at": "2026-02-02T15:27:14",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00123": {
+      "order_id": "ORD-00123",
+      "customer_id": "CUST-0038",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 1,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 189.98,
+      "status": "processing",
+      "ordered_at": "2026-01-10T02:10:02",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00124": {
+      "order_id": "ORD-00124",
+      "customer_id": "CUST-0038",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 209.97,
+      "status": "processing",
+      "ordered_at": "2026-03-11T22:29:51",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00125": {
+      "order_id": "ORD-00125",
+      "customer_id": "CUST-0039",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 439.94,
+      "status": "returned",
+      "ordered_at": "2026-02-28T10:46:05",
+      "delivered_at": "2026-03-05T10:46:05",
+      "return_eligible": false
+    },
+    "ORD-00126": {
+      "order_id": "ORD-00126",
+      "customer_id": "CUST-0039",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 159.97,
+      "status": "shipped",
+      "ordered_at": "2026-03-16T03:27:50",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00127": {
+      "order_id": "ORD-00127",
+      "customer_id": "CUST-0039",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 179.96,
+      "status": "cancelled",
+      "ordered_at": "2026-03-18T12:41:19",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00128": {
+      "order_id": "ORD-00128",
+      "customer_id": "CUST-0039",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 199.96,
+      "status": "cancelled",
+      "ordered_at": "2026-02-18T19:51:00",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00129": {
+      "order_id": "ORD-00129",
+      "customer_id": "CUST-0039",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 259.98,
+      "status": "delivered",
+      "ordered_at": "2026-02-19T23:38:05",
+      "delivered_at": "2026-02-23T23:38:05",
+      "return_eligible": true
+    },
+    "ORD-00130": {
+      "order_id": "ORD-00130",
+      "customer_id": "CUST-0040",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 199.97,
+      "status": "processing",
+      "ordered_at": "2026-02-02T22:44:30",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00131": {
+      "order_id": "ORD-00131",
+      "customer_id": "CUST-0041",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 259.96,
+      "status": "shipped",
+      "ordered_at": "2026-01-29T02:32:46",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00132": {
+      "order_id": "ORD-00132",
+      "customer_id": "CUST-0041",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 174.96,
+      "status": "processing",
+      "ordered_at": "2026-02-23T10:22:52",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00133": {
+      "order_id": "ORD-00133",
+      "customer_id": "CUST-0041",
+      "items": [
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 2,
+          "unit_price": 49.99
+        }
+      ],
+      "total_amount": 99.98,
+      "status": "delivered",
+      "ordered_at": "2026-03-08T10:10:46",
+      "delivered_at": "2026-03-14T10:10:46",
+      "return_eligible": true
+    },
+    "ORD-00134": {
+      "order_id": "ORD-00134",
+      "customer_id": "CUST-0042",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 369.96,
+      "status": "returned",
+      "ordered_at": "2026-02-07T18:47:26",
+      "delivered_at": "2026-02-10T18:47:26",
+      "return_eligible": false
+    },
+    "ORD-00135": {
+      "order_id": "ORD-00135",
+      "customer_id": "CUST-0042",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 279.97,
+      "status": "processing",
+      "ordered_at": "2026-01-05T09:15:18",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00136": {
+      "order_id": "ORD-00136",
+      "customer_id": "CUST-0043",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 309.97,
+      "status": "processing",
+      "ordered_at": "2025-12-25T05:30:59",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00137": {
+      "order_id": "ORD-00137",
+      "customer_id": "CUST-0043",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 299.95,
+      "status": "cancelled",
+      "ordered_at": "2026-01-21T10:36:06",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00138": {
+      "order_id": "ORD-00138",
+      "customer_id": "CUST-0043",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 189.96,
+      "status": "returned",
+      "ordered_at": "2026-03-05T11:21:38",
+      "delivered_at": "2026-03-09T11:21:38",
+      "return_eligible": false
+    },
+    "ORD-00139": {
+      "order_id": "ORD-00139",
+      "customer_id": "CUST-0043",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 229.96,
+      "status": "returned",
+      "ordered_at": "2026-01-22T23:13:28",
+      "delivered_at": "2026-01-27T23:13:28",
+      "return_eligible": false
+    },
+    "ORD-00140": {
+      "order_id": "ORD-00140",
+      "customer_id": "CUST-0044",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 119.98,
+      "status": "shipped",
+      "ordered_at": "2026-03-07T06:49:40",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00141": {
+      "order_id": "ORD-00141",
+      "customer_id": "CUST-0044",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 279.95,
+      "status": "shipped",
+      "ordered_at": "2026-02-08T21:39:13",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00142": {
+      "order_id": "ORD-00142",
+      "customer_id": "CUST-0044",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 159.98,
+      "status": "cancelled",
+      "ordered_at": "2026-03-03T10:50:21",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00143": {
+      "order_id": "ORD-00143",
+      "customer_id": "CUST-0045",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 2,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 359.97,
+      "status": "processing",
+      "ordered_at": "2026-02-08T13:31:53",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00144": {
+      "order_id": "ORD-00144",
+      "customer_id": "CUST-0045",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 159.97,
+      "status": "delivered",
+      "ordered_at": "2026-03-10T20:37:30",
+      "delivered_at": "2026-03-14T20:37:30",
+      "return_eligible": true
+    },
+    "ORD-00145": {
+      "order_id": "ORD-00145",
+      "customer_id": "CUST-0045",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 39.98,
+      "status": "delivered",
+      "ordered_at": "2026-01-19T17:05:13",
+      "delivered_at": "2026-01-27T17:05:13",
+      "return_eligible": false
+    },
+    "ORD-00146": {
+      "order_id": "ORD-00146",
+      "customer_id": "CUST-0045",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        }
+      ],
+      "total_amount": 79.99,
+      "status": "cancelled",
+      "ordered_at": "2026-01-26T20:26:38",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00147": {
+      "order_id": "ORD-00147",
+      "customer_id": "CUST-0045",
+      "items": [
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 2,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 179.97,
+      "status": "shipped",
+      "ordered_at": "2026-02-23T11:50:19",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00148": {
+      "order_id": "ORD-00148",
+      "customer_id": "CUST-0046",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        }
+      ],
+      "total_amount": 219.97,
+      "status": "processing",
+      "ordered_at": "2026-01-23T01:20:44",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00149": {
+      "order_id": "ORD-00149",
+      "customer_id": "CUST-0046",
+      "items": [
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 1,
+          "unit_price": 19.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 234.96,
+      "status": "cancelled",
+      "ordered_at": "2026-03-22T16:40:11",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00150": {
+      "order_id": "ORD-00150",
+      "customer_id": "CUST-0046",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 34.99,
+      "status": "returned",
+      "ordered_at": "2025-12-27T18:59:28",
+      "delivered_at": "2025-12-30T18:59:28",
+      "return_eligible": false
+    },
+    "ORD-00151": {
+      "order_id": "ORD-00151",
+      "customer_id": "CUST-0046",
+      "items": [
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 99.97,
+      "status": "cancelled",
+      "ordered_at": "2025-12-29T10:42:21",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00152": {
+      "order_id": "ORD-00152",
+      "customer_id": "CUST-0046",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        },
+        {
+          "product_id": "PROD-007",
+          "product_name": "TechGear Laptop Sleeve",
+          "quantity": 2,
+          "unit_price": 19.99
+        }
+      ],
+      "total_amount": 139.95,
+      "status": "shipped",
+      "ordered_at": "2026-01-25T11:23:12",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00153": {
+      "order_id": "ORD-00153",
+      "customer_id": "CUST-0047",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 79.98,
+      "status": "delivered",
+      "ordered_at": "2026-02-07T18:05:46",
+      "delivered_at": "2026-02-15T18:05:46",
+      "return_eligible": false
+    },
+    "ORD-00154": {
+      "order_id": "ORD-00154",
+      "customer_id": "CUST-0047",
+      "items": [
+        {
+          "product_id": "PROD-004",
+          "product_name": "TechGear Gaming Mouse",
+          "quantity": 2,
+          "unit_price": 59.99
+        },
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 1,
+          "unit_price": 34.99
+        }
+      ],
+      "total_amount": 154.97,
+      "status": "shipped",
+      "ordered_at": "2026-02-24T21:57:52",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00155": {
+      "order_id": "ORD-00155",
+      "customer_id": "CUST-0047",
+      "items": [
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        }
+      ],
+      "total_amount": 379.96,
+      "status": "returned",
+      "ordered_at": "2026-01-18T15:20:57",
+      "delivered_at": "2026-01-21T15:20:57",
+      "return_eligible": false
+    },
+    "ORD-00156": {
+      "order_id": "ORD-00156",
+      "customer_id": "CUST-0048",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 1,
+          "unit_price": 39.99
+        }
+      ],
+      "total_amount": 39.99,
+      "status": "returned",
+      "ordered_at": "2026-03-17T19:57:17",
+      "delivered_at": "2026-03-19T19:57:17",
+      "return_eligible": false
+    },
+    "ORD-00157": {
+      "order_id": "ORD-00157",
+      "customer_id": "CUST-0048",
+      "items": [
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 2,
+          "unit_price": 89.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 1,
+          "unit_price": 99.99
+        }
+      ],
+      "total_amount": 279.97,
+      "status": "delivered",
+      "ordered_at": "2026-02-09T21:29:44",
+      "delivered_at": "2026-02-11T21:29:44",
+      "return_eligible": false
+    },
+    "ORD-00158": {
+      "order_id": "ORD-00158",
+      "customer_id": "CUST-0049",
+      "items": [
+        {
+          "product_id": "PROD-006",
+          "product_name": "TechGear Monitor Stand",
+          "quantity": 2,
+          "unit_price": 39.99
+        },
+        {
+          "product_id": "PROD-001",
+          "product_name": "TechGear Wireless Earbuds",
+          "quantity": 1,
+          "unit_price": 49.99
+        },
+        {
+          "product_id": "PROD-003",
+          "product_name": "TechGear Mechanical Keyboard",
+          "quantity": 1,
+          "unit_price": 89.99
+        }
+      ],
+      "total_amount": 219.96,
+      "status": "cancelled",
+      "ordered_at": "2026-01-03T09:56:51",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00159": {
+      "order_id": "ORD-00159",
+      "customer_id": "CUST-0049",
+      "items": [
+        {
+          "product_id": "PROD-002",
+          "product_name": "TechGear USB-C Hub",
+          "quantity": 2,
+          "unit_price": 34.99
+        },
+        {
+          "product_id": "PROD-010",
+          "product_name": "TechGear Smart Speaker",
+          "quantity": 2,
+          "unit_price": 99.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 1,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 299.95,
+      "status": "cancelled",
+      "ordered_at": "2026-03-22T16:37:20",
+      "delivered_at": null,
+      "return_eligible": false
+    },
+    "ORD-00160": {
+      "order_id": "ORD-00160",
+      "customer_id": "CUST-0050",
+      "items": [
+        {
+          "product_id": "PROD-009",
+          "product_name": "TechGear Noise Cancelling Headphones",
+          "quantity": 1,
+          "unit_price": 129.99
+        },
+        {
+          "product_id": "PROD-005",
+          "product_name": "TechGear Webcam Pro",
+          "quantity": 1,
+          "unit_price": 79.99
+        },
+        {
+          "product_id": "PROD-008",
+          "product_name": "TechGear Portable Charger",
+          "quantity": 2,
+          "unit_price": 29.99
+        }
+      ],
+      "total_amount": 269.96,
+      "status": "cancelled",
+      "ordered_at": "2026-01-18T22:19:22",
+      "delivered_at": null,
+      "return_eligible": false
+    }
+  },
+  "refund_log": [
+    {
+      "refund_id": "REF-529D80DB",
+      "order_id": "ORD-00005",
+      "customer_id": "CUST-0002",
+      "amount": 219.96,
+      "reason": "Defective product",
+      "processed_at": "2026-03-24T23:33:28.998518"
+    }
+  ],
+  "escalation_log": [
+    {
+      "escalation_id": "ESC-752A37A0",
+      "customer_id": "CUST-0001",
+      "priority": "high",
+      "reason": "Refund exceeds $500",
+      "context_summary": "Customer wants refund on order ORD-00001 totaling $600.",
+      "created_at": "2026-03-24T23:33:29.037795"
+    },
+    {
+      "escalation_id": "ESC-ADA84444",
+      "customer_id": null,
+      "priority": "low",
+      "reason": "Test low",
+      "context_summary": "Test context.",
+      "created_at": "2026-03-24T23:33:29.057240"
+    },
+    {
+      "escalation_id": "ESC-FEF6C7C0",
+      "customer_id": null,
+      "priority": "medium",
+      "reason": "Test medium",
+      "context_summary": "Test context.",
+      "created_at": "2026-03-24T23:33:29.075775"
+    },
+    {
+      "escalation_id": "ESC-A9F6EABC",
+      "customer_id": null,
+      "priority": "high",
+      "reason": "Test high",
+      "context_summary": "Test context.",
+      "created_at": "2026-03-24T23:33:29.092712"
+    },
+    {
+      "escalation_id": "ESC-37A41FF5",
+      "customer_id": null,
+      "priority": "critical",
+      "reason": "Test critical",
+      "context_summary": "Test context.",
+      "created_at": "2026-03-24T23:33:29.109593"
+    }
+  ]
+}
